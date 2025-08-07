@@ -22,7 +22,7 @@ A beginner-friendly Python script that demonstrates how binary search works on a
 
 ---
 
-## 🧪 Example
+## 💻 Code Snippet
 
 ```python
 Enter the number you want to search for: 4  
