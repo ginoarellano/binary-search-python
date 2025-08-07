@@ -27,3 +27,19 @@ A beginner-friendly Python script that demonstrates how binary search works on a
 ```python
 Enter the number you want to search for: 4  
 Found 4 at index 3
+
+def binary_search(arr, target):
+    low = 0
+    high = len(arr) - 1
+
+    while low <= high:
+        mid = (low + high) // 2
+        if arr[mid] == target:
+            return mid
+        elif arr[mid] < target:
+            low = mid + 1
+        else:
+            high = mid - 1
+
+    return -1```
+
