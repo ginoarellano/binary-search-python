@@ -41,5 +41,5 @@ def binary_search(arr, target):
         else:
             high = mid - 1
 
-    return -1```
+    return -1
 
